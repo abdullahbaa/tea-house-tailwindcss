@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House Banner Using TailwindCss</title>
+    <!-- google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- Font Awesome code-->
+<script src="https://kit.fontawesome.com/9455754c6c.js" crossorigin="anonymous"></script>
+<!-- Tailwind CSS link -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
 </head>
 <body>
-    <h1>Tailwindcss tea house</h1>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <header class="flex pt-10 mb-20">
+            <!-- text contet -->
+             <div>
+                <h1 class="text-5xl md:text-7xl">It's good <br>
+                    tea time at <br> The Tea House</h1>
+                    <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <button>Explore More <i class="fa-solid fa-arrow-right"></i></button>
+             </div>
+        </header>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
